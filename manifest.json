@@ -1,0 +1,13 @@
+{
+  "name": "Rand Park",
+  "version": "1.0",
+  "description": "Fix the South Park random",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://www.southparkstudios.com/episodes/*"]
+    }
+  ],
+  "web_accessible_resources": ["urls"]
+}
