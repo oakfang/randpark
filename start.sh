@@ -1,2 +1,3 @@
-python main.py > urls
+# /bin/bash
+python3 main.py > urls
 node server.js
